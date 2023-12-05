@@ -14,18 +14,22 @@
 }
 
 button:hover {
-    background-color: #d8d4d4;
+    background-color: #ff8000;
 }
 
 button{
     border:none;
-    background: #FFFFFF;
-    transition: 0.2s;
+    transition: 0.2s;  padding: 1.6rem;
+    border-radius: .4rem;
+    background: #FF9500;
+    color: #FFFFFF;
+    font-family: 'DM sans', sans-serif;
+    font-weight: bold;   
     
 }
 
 body{
-    background: linear-gradient(287.56deg, #FFFFFF 0%, #190361 100%);
+    background: linear-gradient(45deg, #190361 0%, #B0F 100%);
     font-size: 1.6rem;
     display: grid;
     place-items: center;
@@ -54,15 +58,19 @@ main p{
     font-family: 'DM sans', sans-serif;
     font-size: 1.5rem;
     font-weight: normal;
+    margin-top: 1.4rem;
+    margin-bottom: 2.64;
 }
 
 .screen2 h1{
-    font-family: 'Monserrat', sans-serif;
+    width: 29.7rem;
+    font-family: 'Montserrat', sans-serif;
     font-size: 2.4rem;
-    font-weight: 700;
+    font-weight: bold;
+    margin-bottom: 1.7rem;
 }
 
-.scrren2 p{
+#frase-sorte{
     background: #E4EDF1;
     box-shadow: 2px 2px 2px 0px rgba(85, 85, 85, 0.50);
     font-family: 'Dancing Script',  sans-serif;
@@ -70,5 +78,10 @@ main p{
     padding: 1.0rem;
     margin: 1.0rem 0rem;
 }
+
+#biscoitoAberto{
+    margin: 5.93rem 0;
+}
+
 
 
